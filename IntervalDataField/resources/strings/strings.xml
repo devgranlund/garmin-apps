@@ -1,0 +1,10 @@
+<strings>
+    <string id="AppName">IntervalDataField</string>
+
+    <string id="battery_status">Battery</string>
+    <string id="current_time">Current time</string>
+    <string id="time_passed">Time passed</string>
+    <string id="heart_rate">HR</string>
+    <string id="current_speed">Speed km/h</string>
+    <string id="distance">Distance</string>
+</strings>

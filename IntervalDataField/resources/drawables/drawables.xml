@@ -1,0 +1,6 @@
+<drawables>
+    <bitmap id="LauncherIcon" filename="launcher_icon.png" />
+    <drawable-list id="upper_line">
+    	<shape type="rectangle" width="fill" height="1"></shape>
+    </drawable-list>
+</drawables>

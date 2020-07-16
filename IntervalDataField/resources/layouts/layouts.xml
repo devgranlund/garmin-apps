@@ -1,0 +1,47 @@
+<layouts>
+    <!-- A generic, centered layout. -->
+    <layout id="MainLayout">
+        <drawable class="Background" />
+        <drawable id="upper_line" />
+
+		<label id="current_time_label" x="center" y="5%" color="Graphics.COLOR_LT_GRAY" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Graphics.FONT_XTINY"/>
+    	<label id="current_time_value" x="center" y="center" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Graphics.FONT_TINY" />
+    	
+    	<label id="time_passed_label" x="5%" y="55%" color="Graphics.COLOR_LT_GRAY" justification="Graphics.TEXT_JUSTIFY_LEFT" font="Graphics.FONT_XTINY"/>
+		<label id="time_passed_value" x="5%" y="55%" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_LEFT" font="Graphics.FONT_TINY" />
+
+    	<label id="hr_label" x="center" y="55%" color="Graphics.COLOR_LT_GRAY" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Graphics.FONT_XTINY"/>
+		<label id="hr_value" x="center" y="55%" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Graphics.FONT_TINY" />
+
+    	<label id="current_speed_label" x="95%" y="55%" color="Graphics.COLOR_LT_GRAY" justification="Graphics.TEXT_JUSTIFY_RIGHT" font="Graphics.FONT_XTINY"/>
+  		<label id="current_speed_value" x="88%" y="55%" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_RIGHT" font="Graphics.FONT_TINY" />
+    	
+    	<label id="battery_status_label" x="35%" y="75%" color="Graphics.COLOR_LT_GRAY" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Graphics.FONT_XTINY" />
+        <label id="battery_status_value" x="35%" y="center" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Graphics.FONT_TINY" />
+    	
+    	<label id="distance_label" x="65%" y="75%" color="Graphics.COLOR_LT_GRAY" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Graphics.FONT_XTINY" />
+    	<label id="distance_value" x="65%" y="center" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Graphics.FONT_TINY" />
+    </layout>
+
+    <!-- Layouts used for the for the four quadrants. -->
+    <layout id="TopLeftLayout">
+        <drawable class="Background" />
+        <label id="label" x="95" y="75" color="Graphics.COLOR_LT_GRAY" justification="Graphics.TEXT_JUSTIFY_RIGHT" font="Graphics.FONT_TINY" />
+        <label id="value" x="95" y="42" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_RIGHT" font="Graphics.FONT_LARGE" />
+    </layout>
+    <layout id="TopRightLayout">
+        <drawable class="Background" />
+        <label id="label" x="14" y="75" color="Graphics.COLOR_LT_GRAY" justification="Graphics.TEXT_JUSTIFY_LEFT" font="Graphics.FONT_TINY" />
+        <label id="value" x="14" y="42" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_LEFT" font="Graphics.FONT_LARGE" />
+    </layout>
+    <layout id="BottomLeftLayout">
+        <drawable class="Background" />
+        <label id="label" x="95" y="10" color="Graphics.COLOR_LT_GRAY" justification="Graphics.TEXT_JUSTIFY_RIGHT" font="Graphics.FONT_TINY" />
+        <label id="value" x="95" y="27" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_RIGHT" font="Graphics.FONT_LARGE" />
+    </layout>
+    <layout id="BottomRightLayout">
+        <drawable class="Background" />
+        <label id="label" x="14" y="10" color="Graphics.COLOR_LT_GRAY" justification="Graphics.TEXT_JUSTIFY_LEFT" font="Graphics.FONT_TINY" />
+        <label id="value" x="14" y="27" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_LEFT" font="Graphics.FONT_LARGE" />
+    </layout>
+</layouts>

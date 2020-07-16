@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <pcToLineNum>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldBackground.mc" id="3" lineNum="9" pc="268435456" symbol="initialize"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldBackground.mc" id="3" lineNum="10" pc="268435460" symbol="initialize"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldBackground.mc" id="3" lineNum="14" pc="268435481" symbol="initialize"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldBackground.mc" id="4" lineNum="17" pc="268435502" symbol="setColor"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldBackground.mc" id="4" lineNum="18" pc="268435506" symbol="setColor"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldBackground.mc" id="5" lineNum="21" pc="268435517" symbol="draw"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldBackground.mc" id="5" lineNum="22" pc="268435521" symbol="draw"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldBackground.mc" id="5" lineNum="23" pc="268435553" symbol="draw"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldApp.mc" id="7" lineNum="5" pc="268435566" symbol="initialize"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldApp.mc" id="7" lineNum="6" pc="268435570" symbol="initialize"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldApp.mc" id="8" lineNum="10" pc="268435589" symbol="onStart"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldApp.mc" id="9" lineNum="14" pc="268435594" symbol="onStop"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldApp.mc" id="10" lineNum="18" pc="268435599" symbol="getInitialView"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldApp.mc" id="10" lineNum="19" pc="268435603" symbol="getInitialView"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="12" lineNum="35" pc="268435641" symbol="initialize"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="12" lineNum="36" pc="268435645" symbol="initialize"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="12" lineNum="37" pc="268435663" symbol="initialize"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="12" lineNum="38" pc="268435676" symbol="initialize"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="12" lineNum="39" pc="268435689" symbol="initialize"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="12" lineNum="40" pc="268435702" symbol="initialize"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="13" lineNum="45" pc="268435716" symbol="onLayout"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="13" lineNum="46" pc="268435720" symbol="onLayout"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="13" lineNum="49" pc="268435739" symbol="onLayout"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="13" lineNum="50" pc="268435762" symbol="onLayout"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="13" lineNum="53" pc="268435808" symbol="onLayout"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="13" lineNum="54" pc="268435831" symbol="onLayout"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="13" lineNum="57" pc="268435877" symbol="onLayout"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="13" lineNum="58" pc="268435900" symbol="onLayout"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="13" lineNum="61" pc="268435946" symbol="onLayout"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="13" lineNum="62" pc="268435969" symbol="onLayout"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="13" lineNum="66" pc="268436015" symbol="onLayout"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="13" lineNum="68" pc="268436058" symbol="onLayout"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="13" lineNum="69" pc="268436085" symbol="onLayout"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="13" lineNum="70" pc="268436112" symbol="onLayout"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="13" lineNum="72" pc="268436134" symbol="onLayout"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="13" lineNum="73" pc="268436161" symbol="onLayout"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="13" lineNum="74" pc="268436188" symbol="onLayout"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="13" lineNum="76" pc="268436210" symbol="onLayout"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="13" lineNum="77" pc="268436237" symbol="onLayout"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="13" lineNum="78" pc="268436264" symbol="onLayout"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="13" lineNum="80" pc="268436286" symbol="onLayout"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="13" lineNum="81" pc="268436313" symbol="onLayout"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="13" lineNum="82" pc="268436340" symbol="onLayout"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="13" lineNum="84" pc="268436362" symbol="onLayout"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="13" lineNum="85" pc="268436389" symbol="onLayout"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="13" lineNum="86" pc="268436416" symbol="onLayout"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="13" lineNum="88" pc="268436438" symbol="onLayout"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="13" lineNum="89" pc="268436465" symbol="onLayout"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="13" lineNum="90" pc="268436492" symbol="onLayout"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="13" lineNum="93" pc="268436514" symbol="onLayout"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="13" lineNum="94" pc="268436569" symbol="onLayout"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="13" lineNum="95" pc="268436624" symbol="onLayout"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="13" lineNum="96" pc="268436679" symbol="onLayout"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="13" lineNum="97" pc="268436734" symbol="onLayout"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="13" lineNum="98" pc="268436789" symbol="onLayout"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="13" lineNum="100" pc="268436844" symbol="onLayout"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="14" lineNum="108" pc="268436848" symbol="compute"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="14" lineNum="111" pc="268436852" symbol="compute"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="14" lineNum="114" pc="268436871" symbol="compute"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="14" lineNum="115" pc="268436882" symbol="compute"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="14" lineNum="116" pc="268436895" symbol="compute"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="14" lineNum="119" pc="268436914" symbol="compute"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="14" lineNum="120" pc="268436927" symbol="compute"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="14" lineNum="123" pc="268436959" symbol="compute"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="14" lineNum="127" pc="268436988" symbol="compute"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="14" lineNum="128" pc="268436999" symbol="compute"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="14" lineNum="129" pc="268437012" symbol="compute"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="14" lineNum="135" pc="268437034" symbol="compute"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="14" lineNum="136" pc="268437045" symbol="compute"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="14" lineNum="137" pc="268437058" symbol="compute"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="14" lineNum="143" pc="268437086" symbol="compute"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="14" lineNum="144" pc="268437103" symbol="compute"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="14" lineNum="147" pc="268437119" symbol="compute"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="14" lineNum="148" pc="268437130" symbol="compute"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="14" lineNum="149" pc="268437143" symbol="compute"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="14" lineNum="150" pc="268437165" symbol="compute"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="15" lineNum="158" pc="268437225" symbol="onUpdate"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="15" lineNum="160" pc="268437229" symbol="onUpdate"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="15" lineNum="163" pc="268437272" symbol="onUpdate"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="15" lineNum="164" pc="268437299" symbol="onUpdate"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="15" lineNum="165" pc="268437323" symbol="onUpdate"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="15" lineNum="168" pc="268437343" symbol="onUpdate"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="15" lineNum="169" pc="268437370" symbol="onUpdate"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="15" lineNum="170" pc="268437397" symbol="onUpdate"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="15" lineNum="172" pc="268437424" symbol="onUpdate"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="15" lineNum="174" pc="268437448" symbol="onUpdate"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="15" lineNum="176" pc="268437488" symbol="onUpdate"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="15" lineNum="177" pc="268437515" symbol="onUpdate"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="15" lineNum="178" pc="268437539" symbol="onUpdate"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="15" lineNum="179" pc="268437561" symbol="onUpdate"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="15" lineNum="180" pc="268437583" symbol="onUpdate"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="15" lineNum="181" pc="268437605" symbol="onUpdate"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="15" lineNum="184" pc="268437715" symbol="onUpdate"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="15" lineNum="185" pc="268437742" symbol="onUpdate"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="15" lineNum="186" pc="268437766" symbol="onUpdate"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="15" lineNum="188" pc="268437800" symbol="onUpdate"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="15" lineNum="189" pc="268437827" symbol="onUpdate"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="15" lineNum="190" pc="268437851" symbol="onUpdate"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="15" lineNum="192" pc="268437885" symbol="onUpdate"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="15" lineNum="193" pc="268437912" symbol="onUpdate"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="15" lineNum="194" pc="268437936" symbol="onUpdate"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="15" lineNum="197" pc="268437970" symbol="onUpdate"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="16" lineNum="200" pc="268437991" symbol="getTime"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="16" lineNum="201" pc="268437995" symbol="getTime"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="16" lineNum="202" pc="268438002" symbol="getTime"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="16" lineNum="203" pc="268438019" symbol="getTime"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="16" lineNum="204" pc="268438029" symbol="getTime"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="16" lineNum="205" pc="268438054" symbol="getTime"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="16" lineNum="206" pc="268438065" symbol="getTime"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="16" lineNum="209" pc="268438081" symbol="getTime"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="16" lineNum="210" pc="268438115" symbol="getTime"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="16" lineNum="211" pc="268438122" symbol="getTime"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="16" lineNum="214" pc="268438143" symbol="getTime"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="17" lineNum="219" pc="268438208" symbol="log"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="17" lineNum="220" pc="268438220" symbol="log"/>
+        <entry filename="/Users/tuomas.granlund/eclipse-workspace/IntervalDataField/source/IntervalDataFieldView.mc" id="17" lineNum="221" pc="268438228" symbol="log"/>
+        <entry filename="Rez" id="21" lineNum="11" pc="268438250" symbol="initialize"/>
+        <entry filename="Rez" id="21" lineNum="12" pc="268438254" symbol="initialize"/>
+        <entry filename="Rez" id="22" lineNum="15" pc="268438279" symbol="draw"/>
+        <entry filename="Rez" id="22" lineNum="18" pc="268438283" symbol="draw"/>
+        <entry filename="Rez" id="26" lineNum="35" pc="268438340" symbol="MainLayout"/>
+        <entry filename="Rez" id="26" lineNum="37" pc="268438352" symbol="MainLayout"/>
+        <entry filename="Rez" id="26" lineNum="38" pc="268438365" symbol="MainLayout"/>
+        <entry filename="Rez" id="26" lineNum="40" pc="268438378" symbol="MainLayout"/>
+        <entry filename="Rez" id="26" lineNum="41" pc="268438402" symbol="MainLayout"/>
+        <entry filename="Rez" id="26" lineNum="42" pc="268438442" symbol="MainLayout"/>
+        <entry filename="Rez" id="26" lineNum="43" pc="268438455" symbol="MainLayout"/>
+        <entry filename="Rez" id="26" lineNum="45" pc="268438471" symbol="MainLayout"/>
+        <entry filename="Rez" id="26" lineNum="46" pc="268438610" symbol="MainLayout"/>
+        <entry filename="Rez" id="26" lineNum="47" pc="268438773" symbol="MainLayout"/>
+        <entry filename="Rez" id="26" lineNum="48" pc="268438912" symbol="MainLayout"/>
+        <entry filename="Rez" id="26" lineNum="49" pc="268439051" symbol="MainLayout"/>
+        <entry filename="Rez" id="26" lineNum="50" pc="268439190" symbol="MainLayout"/>
+        <entry filename="Rez" id="26" lineNum="51" pc="268439329" symbol="MainLayout"/>
+        <entry filename="Rez" id="26" lineNum="52" pc="268439468" symbol="MainLayout"/>
+        <entry filename="Rez" id="26" lineNum="53" pc="268439607" symbol="MainLayout"/>
+        <entry filename="Rez" id="26" lineNum="54" pc="268439746" symbol="MainLayout"/>
+        <entry filename="Rez" id="26" lineNum="55" pc="268439909" symbol="MainLayout"/>
+        <entry filename="Rez" id="26" lineNum="56" pc="268440048" symbol="MainLayout"/>
+        <entry filename="Rez" id="26" lineNum="58" pc="268440211" symbol="MainLayout"/>
+        <entry filename="Rez" id="27" lineNum="67" pc="268440359" symbol="TopLeftLayout"/>
+        <entry filename="Rez" id="27" lineNum="70" pc="268440371" symbol="TopLeftLayout"/>
+        <entry filename="Rez" id="27" lineNum="71" pc="268440395" symbol="TopLeftLayout"/>
+        <entry filename="Rez" id="27" lineNum="72" pc="268440528" symbol="TopLeftLayout"/>
+        <entry filename="Rez" id="27" lineNum="74" pc="268440661" symbol="TopLeftLayout"/>
+        <entry filename="Rez" id="28" lineNum="83" pc="268440699" symbol="TopRightLayout"/>
+        <entry filename="Rez" id="28" lineNum="86" pc="268440711" symbol="TopRightLayout"/>
+        <entry filename="Rez" id="28" lineNum="87" pc="268440735" symbol="TopRightLayout"/>
+        <entry filename="Rez" id="28" lineNum="88" pc="268440868" symbol="TopRightLayout"/>
+        <entry filename="Rez" id="28" lineNum="90" pc="268441001" symbol="TopRightLayout"/>
+        <entry filename="Rez" id="29" lineNum="99" pc="268441039" symbol="BottomLeftLayout"/>
+        <entry filename="Rez" id="29" lineNum="102" pc="268441051" symbol="BottomLeftLayout"/>
+        <entry filename="Rez" id="29" lineNum="103" pc="268441075" symbol="BottomLeftLayout"/>
+        <entry filename="Rez" id="29" lineNum="104" pc="268441208" symbol="BottomLeftLayout"/>
+        <entry filename="Rez" id="29" lineNum="106" pc="268441341" symbol="BottomLeftLayout"/>
+        <entry filename="Rez" id="30" lineNum="115" pc="268441379" symbol="BottomRightLayout"/>
+        <entry filename="Rez" id="30" lineNum="118" pc="268441391" symbol="BottomRightLayout"/>
+        <entry filename="Rez" id="30" lineNum="119" pc="268441415" symbol="BottomRightLayout"/>
+        <entry filename="Rez" id="30" lineNum="120" pc="268441548" symbol="BottomRightLayout"/>
+        <entry filename="Rez" id="30" lineNum="122" pc="268441681" symbol="BottomRightLayout"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry field="true" id="40" symbol="DISTANCE_LABEL"/>
+        <entry field="true" id="8388733" symbol="timerTime"/>
+        <entry id="8388899" method="true" symbol="log"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry id="8389349" symbol="justification"/>
+        <entry id="16" method="true" symbol="TopLeftLayout"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry field="true" id="35" symbol="HR_VALUE"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry field="true" id="33" symbol="TIME_PASSED_VALUE"/>
+        <entry field="true" id="26" symbol="DEBUG_MODE"/>
+        <entry id="18" method="true" symbol="BottomLeftLayout"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389068" method="true" symbol="draw"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="15" method="true" symbol="MainLayout"/>
+        <entry field="true" id="29" symbol="currentHr"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry field="true" id="30" symbol="CURRENT_TIME_LABEL"/>
+        <entry field="true" id="8389526" symbol="batteryStatus"/>
+        <entry field="true" id="8389130" symbol="mColor"/>
+        <entry id="8389131" method="true" symbol="setColor"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry field="true" id="24" symbol="AppName"/>
+        <entry id="42" method="true" symbol="getTime"/>
+        <entry field="true" id="28" symbol="timePassed"/>
+        <entry field="true" id="21" symbol="time_passed"/>
+        <entry field="true" id="38" symbol="BATTERY_STATUS_LABEL"/>
+        <entry field="true" id="36" symbol="CURRENT_SPEED_LABEL"/>
+        <entry id="8390146" module="true" object="true" symbol="Background"/>
+        <entry field="true" id="13" symbol="LauncherIcon"/>
+        <entry field="true" id="41" symbol="DISTANCE_VALUE"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry id="10" object="true" symbol="IntervalDataFieldView"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389137" method="true" symbol="compute"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry field="true" id="27" symbol="currentTime"/>
+        <entry id="17" method="true" symbol="TopRightLayout"/>
+        <entry field="true" id="8388738" symbol="currentSpeed"/>
+        <entry field="true" id="8388734" symbol="elapsedDistance"/>
+        <entry field="true" id="8388747" symbol="currentHeartRate"/>
+        <entry id="8389348" symbol="font"/>
+        <entry id="8389347" symbol="color"/>
+        <entry field="true" id="34" symbol="HR_LABEL"/>
+        <entry field="true" id="20" symbol="current_speed"/>
+        <entry field="true" id="32" symbol="TIME_PASSED_LABEL"/>
+        <entry field="true" id="8388911" symbol="distance"/>
+        <entry field="true" id="31" symbol="CURRENT_TIME_VALUE"/>
+        <entry id="11" module="true" symbol="Layouts"/>
+        <entry id="19" method="true" symbol="BottomRightLayout"/>
+        <entry field="true" id="23" symbol="current_time"/>
+        <entry id="8390088" module="true" object="true" symbol="JsonData"/>
+        <entry id="9" object="true" symbol="IntervalDataFieldApp"/>
+        <entry field="true" id="8389063" symbol="identifier"/>
+        <entry id="12" module="true" symbol="Menus"/>
+        <entry field="true" id="39" symbol="BATTERY_STATUS_VALUE"/>
+        <entry field="true" id="25" symbol="battery_status"/>
+        <entry field="true" id="37" symbol="CURRENT_SPEED_VALUE"/>
+        <entry field="true" id="22" symbol="heart_rate"/>
+        <entry id="8388772" module="true" object="true" symbol="Fonts"/>
+        <entry id="14" object="true" symbol="upper_line"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+    </symbolTable>
+    <localVars>
+        <entry endPc="268435501" name="dictionary" stackId="1" startPc="268435460"/>
+        <entry endPc="268435517" name="color" stackId="1" startPc="268435502"/>
+        <entry endPc="268435566" name="dc" stackId="1" startPc="268435517"/>
+        <entry endPc="268435594" name="state" stackId="1" startPc="268435589"/>
+        <entry endPc="268435599" name="state" stackId="1" startPc="268435594"/>
+        <entry endPc="268436514" name="timeLabel" stackId="5" startPc="268436015"/>
+        <entry endPc="268436514" name="distanceLabel" stackId="13" startPc="268436015"/>
+        <entry endPc="268436514" name="timeValue" stackId="6" startPc="268436015"/>
+        <entry endPc="268436514" name="distanceValue" stackId="14" startPc="268436015"/>
+        <entry endPc="268436514" name="speedLabel" stackId="11" startPc="268436015"/>
+        <entry endPc="268436514" name="speedValue" stackId="12" startPc="268436015"/>
+        <entry endPc="268436514" name="batteryLabel" stackId="3" startPc="268436015"/>
+        <entry endPc="268436514" name="batteryValue" stackId="4" startPc="268436015"/>
+        <entry endPc="268436514" name="passedLabel" stackId="7" startPc="268436015"/>
+        <entry endPc="268436514" name="passedValue" stackId="8" startPc="268436015"/>
+        <entry endPc="268436514" name="hrLabel" stackId="9" startPc="268436015"/>
+        <entry endPc="268436514" name="hrValue" stackId="10" startPc="268436015"/>
+        <entry endPc="268436847" name="obscurityFlags" stackId="2" startPc="268435720"/>
+        <entry endPc="268436848" name="dc" stackId="1" startPc="268435716"/>
+        <entry endPc="268437224" name="deviceStats" stackId="2" startPc="268436852"/>
+        <entry endPc="268437225" name="info" stackId="1" startPc="268436848"/>
+        <entry endPc="268437990" name="time" stackId="2" startPc="268437229"/>
+        <entry endPc="268437990" name="speed" stackId="9" startPc="268437229"/>
+        <entry endPc="268437990" name="minutes" stackId="6" startPc="268437229"/>
+        <entry endPc="268437990" name="passed" stackId="4" startPc="268437229"/>
+        <entry endPc="268437990" name="battery" stackId="3" startPc="268437229"/>
+        <entry endPc="268437990" name="dist" stackId="10" startPc="268437229"/>
+        <entry endPc="268437990" name="hours" stackId="7" startPc="268437229"/>
+        <entry endPc="268437990" name="seconds" stackId="5" startPc="268437229"/>
+        <entry endPc="268437990" name="hr" stackId="8" startPc="268437229"/>
+        <entry endPc="268437991" name="dc" stackId="1" startPc="268437225"/>
+        <entry endPc="268438207" name="hours" stackId="3" startPc="268437995"/>
+        <entry endPc="268438207" name="clockTime" stackId="2" startPc="268437995"/>
+        <entry endPc="268438207" name="timeFormat" stackId="1" startPc="268437995"/>
+        <entry endPc="268438250" name="message" stackId="2" startPc="268438208"/>
+        <entry endPc="268438250" name="debugMode" stackId="1" startPc="268438208"/>
+        <entry endPc="268438340" name="dc" stackId="1" startPc="268438279"/>
+        <entry endPc="268440358" name="rez_cmp_local_text_time_passed_value" stackId="9" startPc="268438352"/>
+        <entry endPc="268440358" name="rez_cmp_local_text_current_time_label" stackId="6" startPc="268438352"/>
+        <entry endPc="268440358" name="rez_cmp_local_var_dc_getWidth" stackId="3" startPc="268438352"/>
+        <entry endPc="268440358" name="rez_cmp_local_text_current_time_value" stackId="7" startPc="268438352"/>
+        <entry endPc="268440358" name="rez_cmp_local_text_hr_label" stackId="10" startPc="268438352"/>
+        <entry endPc="268440358" name="rez_cmp_local_text_hr_value" stackId="11" startPc="268438352"/>
+        <entry endPc="268440358" name="rez_cmp_local_text_battery_status_label" stackId="14" startPc="268438352"/>
+        <entry endPc="268440358" name="rez_cmp_local_text_battery_status_value" stackId="15" startPc="268438352"/>
+        <entry endPc="268440358" name="rez_cmp_local_var_dc_getHeight" stackId="2" startPc="268438352"/>
+        <entry endPc="268440358" name="rez_cmp_local_text_current_speed_label" stackId="12" startPc="268438352"/>
+        <entry endPc="268440358" name="rez_cmp_local_text_current_speed_value" stackId="13" startPc="268438352"/>
+        <entry endPc="268440358" name="rez_cmp_local_custom_drawable_97444247419254336429" stackId="4" startPc="268438352"/>
+        <entry endPc="268440358" name="rez_cmp_local_custom_drawable_upper_line" stackId="5" startPc="268438352"/>
+        <entry endPc="268440358" name="rez_cmp_local_text_distance_label" stackId="16" startPc="268438352"/>
+        <entry endPc="268440358" name="rez_cmp_local_text_distance_value" stackId="17" startPc="268438352"/>
+        <entry endPc="268440358" name="rez_cmp_local_text_time_passed_label" stackId="8" startPc="268438352"/>
+        <entry endPc="268440359" name="dc" stackId="1" startPc="268438340"/>
+        <entry endPc="268440698" name="rez_cmp_local_text_value" stackId="4" startPc="268440371"/>
+        <entry endPc="268440698" name="rez_cmp_local_custom_drawable_17436443161664992304" stackId="2" startPc="268440371"/>
+        <entry endPc="268440698" name="rez_cmp_local_text_label" stackId="3" startPc="268440371"/>
+        <entry endPc="268440699" name="dc" stackId="1" startPc="268440359"/>
+        <entry endPc="268441038" name="rez_cmp_local_text_value" stackId="4" startPc="268440711"/>
+        <entry endPc="268441038" name="rez_cmp_local_custom_drawable_10207873131800826481" stackId="2" startPc="268440711"/>
+        <entry endPc="268441038" name="rez_cmp_local_text_label" stackId="3" startPc="268440711"/>
+        <entry endPc="268441039" name="dc" stackId="1" startPc="268440699"/>
+        <entry endPc="268441378" name="rez_cmp_local_text_value" stackId="4" startPc="268441051"/>
+        <entry endPc="268441378" name="rez_cmp_local_custom_drawable_11210951521566474130" stackId="2" startPc="268441051"/>
+        <entry endPc="268441378" name="rez_cmp_local_text_label" stackId="3" startPc="268441051"/>
+        <entry endPc="268441379" name="dc" stackId="1" startPc="268441039"/>
+        <entry endPc="268441718" name="rez_cmp_local_text_value" stackId="4" startPc="268441391"/>
+        <entry endPc="268441718" name="rez_cmp_local_custom_drawable_11250429901963323912" stackId="2" startPc="268441391"/>
+        <entry endPc="268441718" name="rez_cmp_local_text_label" stackId="3" startPc="268441391"/>
+        <entry endPc="268441719" name="dc" stackId="1" startPc="268441379"/>
+    </localVars>
+    <annotations/>
+    <dataEntryOffsetMappings>
+        <dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
+        <dataEntry offset="166" parentId="globals" symbolId="Background" type="class"/>
+        <dataEntry offset="237" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry offset="316" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry offset="363" parentId="Drawables" symbolId="upper_line" type="class"/>
+        <dataEntry offset="418" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry offset="449" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry offset="480" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry offset="551" parentId="Rez" symbolId="JsonData" type="module"/>
+        <dataEntry offset="582" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry offset="669" parentId="globals" symbolId="IntervalDataFieldApp" type="class"/>
+        <dataEntry offset="740" parentId="globals" symbolId="IntervalDataFieldView" type="class"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" name="initialize" parent="Background">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="setColor" parent="Background">
+            <param id="color"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="draw" parent="Background">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="IntervalDataFieldApp">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onStart" parent="IntervalDataFieldApp">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onStop" parent="IntervalDataFieldApp">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="getInitialView" parent="IntervalDataFieldApp">
+            <documentation>
+                <![CDATA[<div class="description"> Return the initial view of your application here<br/></div>]]>
+            </documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="IntervalDataFieldView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onLayout" parent="IntervalDataFieldView">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="compute" parent="IntervalDataFieldView">
+            <param id="info"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onUpdate" parent="IntervalDataFieldView">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="getTime" parent="IntervalDataFieldView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="log">
+            <param id="debugMode"/>
+            <param id="message"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="upper_line">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="draw" parent="upper_line">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="MainLayout" parent="Layouts">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="TopLeftLayout" parent="Layouts">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="TopRightLayout" parent="Layouts">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="BottomLeftLayout" parent="Layouts">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="BottomRightLayout" parent="Layouts">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>
