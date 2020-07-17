@@ -7,4 +7,8 @@
     <string id="heart_rate">HR</string>
     <string id="current_speed">Speed km/h</string>
     <string id="distance">Distance</string>
+    <string id="interval">Interval</string>
+    
+    <string id="work">Work</string>
+    <string id="rest">Rest</string>
 </strings>

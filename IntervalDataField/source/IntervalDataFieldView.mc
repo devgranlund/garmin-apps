@@ -2,6 +2,8 @@ using Toybox.WatchUi;
 using Toybox.Graphics;
 using Toybox.System;
 using Toybox.Lang;
+using Toybox.Time;
+using Toybox.Time.Gregorian;
 
 class IntervalDataFieldView extends WatchUi.DataField {
 
@@ -14,8 +16,13 @@ class IntervalDataFieldView extends WatchUi.DataField {
     hidden var currentSpeed;
     hidden var distance;
     
+    hidden var timerObject;
+    
     const CURRENT_TIME_LABEL = "current_time_label";
     const CURRENT_TIME_VALUE = "current_time_value";
+    
+    const INTERVAL_LABEL = "interval_label";
+    const INTERVAL_VALUE = "interval_value";
     
     const TIME_PASSED_LABEL = "time_passed_label";
     const TIME_PASSED_VALUE = "time_passed_value";
@@ -38,10 +45,19 @@ class IntervalDataFieldView extends WatchUi.DataField {
         currentHr = 0;
         currentSpeed = 0;
         distance = 0;
+        
+		initializeTimer(); // call just to make sure values are initialized when DataField is started.
+    }
+    
+    function initializeTimer() {
+        var workIntervalLengthInMinutes = 1; //TODO read from settings
+        var restIntervalLenghtInMinutes = 1; //TODO read from settings
+        var startWithWorkPhase = true; 		// TODO read from settings
+        
+        timerObject = new Timer( (workIntervalLengthInMinutes * 60), (restIntervalLenghtInMinutes * 60), startWithWorkPhase );
     }
 
-    // Set your layout here. Anytime the size of obscurity of
-    // the draw context is changed this will be called.
+    // Layout
     function onLayout(dc) {
         var obscurityFlags = DataField.getObscurityFlags();
 
@@ -65,13 +81,17 @@ class IntervalDataFieldView extends WatchUi.DataField {
         } else {
             View.setLayout(Rez.Layouts.MainLayout(dc));
             
-            var batteryLabel = View.findDrawableById(BATTERY_STATUS_LABEL);
-            var batteryValue = View.findDrawableById(BATTERY_STATUS_VALUE);
-            batteryValue.locY = batteryLabel.locY + 17;
-            
             var timeLabel = View.findDrawableById(CURRENT_TIME_LABEL);
             var timeValue = View.findDrawableById(CURRENT_TIME_VALUE);
             timeValue.locY = timeLabel.locY + 17;
+            
+            var intervalLabel = View.findDrawableById(INTERVAL_LABEL);
+            var intervalValue = View.findDrawableById(INTERVAL_VALUE);
+            intervalValue.locY = intervalLabel.locY + 17;
+            
+            var batteryLabel = View.findDrawableById(BATTERY_STATUS_LABEL);
+            var batteryValue = View.findDrawableById(BATTERY_STATUS_VALUE);
+            batteryValue.locY = batteryLabel.locY + 17;
             
             var passedLabel = View.findDrawableById(TIME_PASSED_LABEL);
             var passedValue = View.findDrawableById(TIME_PASSED_VALUE);
@@ -91,6 +111,7 @@ class IntervalDataFieldView extends WatchUi.DataField {
         }
 
         View.findDrawableById(BATTERY_STATUS_LABEL).setText(Rez.Strings.battery_status);
+        View.findDrawableById(INTERVAL_LABEL).setText(Rez.Strings.interval);
         View.findDrawableById(CURRENT_TIME_LABEL).setText(Rez.Strings.current_time);
         View.findDrawableById(TIME_PASSED_LABEL).setText(Rez.Strings.time_passed);
         View.findDrawableById(HR_LABEL).setText(Rez.Strings.heart_rate);
@@ -99,16 +120,32 @@ class IntervalDataFieldView extends WatchUi.DataField {
         
         return true;
     }
+    
+    // called by OS when timer starts
+    function onTimerStart() {
+    	timerObject.start();
+    }
+    
+    function onTimerStop() {
+    	timerObject.stop();
+    }
+    
+    function onTimerPause() {
+    	// TODO autopause
+    }
+    
+    function onTimerResume() {
+    	// TODO resume from pause
+    }
 
-    // The given info object contains all the current workout information.
-    // Calculate a value and save it locally in this method.
-    // Note that compute() and onUpdate() are asynchronous, and there is no
-    // guarantee that compute() will be called before onUpdate().
-    // TODO : ajanotto, nopeus, syke
+	// Compute values
     function compute(info) {
         
         // Current time
         currentTime = getTime();
+        
+        // interval timer
+		timerObject.onCompute();
         
         // Time passed
         if(info has :timerTime){
@@ -147,34 +184,42 @@ class IntervalDataFieldView extends WatchUi.DataField {
         if(info has :elapsedDistance){
         	if(info.elapsedDistance != null){
         		distance = info.elapsedDistance / 1000;
-        		$.log(DEBUG_MODE, "distance " + distance + " (raakadata) " +info.elapsedDistance);
+        		//$.log(DEBUG_MODE, "distance " + distance + " (raakadata) " +info.elapsedDistance);
         	}
         }
 
     }
 
-    // Display the value you computed here. This will be called
-    // once a second when the data field is visible.
+    // Display values
     function onUpdate(dc) {
-        // Set the background color
+        // Set colors
         View.findDrawableById("Background").setColor(getBackgroundColor());
-
-		// TODO layout
-		var time = View.findDrawableById(CURRENT_TIME_VALUE);
-		time.setColor(Graphics.COLOR_BLACK);
-		time.setText(currentTime);
-
-        // Set the foreground color and value
-        var battery = View.findDrawableById(BATTERY_STATUS_VALUE);
+        var valueColor;
         if (getBackgroundColor() == Graphics.COLOR_BLACK) {
-            battery.setColor(Graphics.COLOR_WHITE);
+            valueColor = Graphics.COLOR_WHITE;
         } else {
-            battery.setColor(Graphics.COLOR_BLACK);
+            valueColor = Graphics.COLOR_BLACK;
         }
+
+		var time = View.findDrawableById(CURRENT_TIME_VALUE);
+		time.setColor(valueColor);
+		time.setText(currentTime);
+		
+		var intervalValue = View.findDrawableById(INTERVAL_VALUE);
+		intervalValue.setColor(valueColor);
+		intervalValue.setText(timerObject.onUpdate());
+		if (timerObject.getCurrentPhase() == Timer.WORK) {
+			View.findDrawableById(INTERVAL_LABEL).setText(Rez.Strings.work);
+		} else {
+			View.findDrawableById(INTERVAL_LABEL).setText(Rez.Strings.rest);
+		}
+
+        var battery = View.findDrawableById(BATTERY_STATUS_VALUE);
+        battery.setColor(valueColor);
         battery.setText(batteryStatus.format("%02d") + "%");
 
 		var passed = View.findDrawableById(TIME_PASSED_VALUE);
-		passed.setColor(Graphics.COLOR_BLACK);
+		passed.setColor(valueColor);
 		var seconds = (timePassed / 1000) %60;
 		var minutes = ((timePassed / (1000*60)) % 60); 
 		var hours = ((timePassed / (1000*60*60)) % 24);
@@ -182,21 +227,22 @@ class IntervalDataFieldView extends WatchUi.DataField {
     		[hours.format("%02d"), minutes.format("%02d"), seconds.format("%02d")]));
 
 		var hr = View.findDrawableById(HR_VALUE);
-		hr.setColor(Graphics.COLOR_BLACK);
+		hr.setColor(valueColor);
 		hr.setText(currentHr.format("%02d"));
 		
 		var speed = View.findDrawableById(CURRENT_SPEED_VALUE);
-		speed.setColor(Graphics.COLOR_BLACK);
+		speed.setColor(valueColor);
 		speed.setText(currentSpeed.format("%3.2f"));
 		
 		var dist = View.findDrawableById(DISTANCE_VALUE);
-		dist.setColor(Graphics.COLOR_BLACK);
+		dist.setColor(valueColor);
 		dist.setText(distance.format("%3.2f"));
 		
         // Call parent's onUpdate(dc) to redraw the layout
         View.onUpdate(dc);
     }
     
+    // Get current time formated
     function getTime() {
     	var timeFormat = "$1$:$2$";
         var clockTime = System.getClockTime();
@@ -213,7 +259,6 @@ class IntervalDataFieldView extends WatchUi.DataField {
         }
         return Lang.format(timeFormat, [hours, clockTime.min.format("%02d")]);
     }
-
 }
 
 function log(debugMode, message) {
