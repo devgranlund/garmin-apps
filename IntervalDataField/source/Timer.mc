@@ -39,16 +39,14 @@ class Timer {
 	}
 	
 	function start() {
-		System.println("start()");
 		timerStatus = RUNNING; 
 	}
 	
 	function stop() {
-		System.println("pause()");
 		timerStatus = PAUSED;
 	}
 	
-	// Assumption: this method gets called once per second
+	// The operating system guarantees that this method gets called once per second
 	function onCompute() {
 		calculateTimer();
 	}
@@ -72,7 +70,6 @@ class Timer {
 	function getTimerText() {
 		var minutes = (phaseSecondsLeft / 60).toNumber().format("%02d");
 		var seconds = (phaseSecondsLeft % 60).format("%02d");
-		System.println("seconds " + seconds);
 		return minutes + ":" + seconds;
 	}
 	

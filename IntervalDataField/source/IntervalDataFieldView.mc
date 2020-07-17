@@ -46,7 +46,7 @@ class IntervalDataFieldView extends WatchUi.DataField {
         currentSpeed = 0;
         distance = 0;
         
-		initializeTimer(); // call just to make sure values are initialized when DataField is started.
+		initializeTimer();
     }
     
     function initializeTimer() {
@@ -121,7 +121,6 @@ class IntervalDataFieldView extends WatchUi.DataField {
         return true;
     }
     
-    // called by OS when timer starts
     function onTimerStart() {
     	timerObject.start();
     }
@@ -131,11 +130,11 @@ class IntervalDataFieldView extends WatchUi.DataField {
     }
     
     function onTimerPause() {
-    	// TODO autopause
+    	// "autopause" currently not supported.
     }
     
     function onTimerResume() {
-    	// TODO resume from pause
+    	// "autopause" currently not supported. 
     }
 
 	// Compute values
@@ -151,20 +150,17 @@ class IntervalDataFieldView extends WatchUi.DataField {
         if(info has :timerTime){
             if(info.timerTime != null){
                 timePassed = info.timerTime;
-                //$.log(DEBUG_MODE, "timerTime " + info.timerTime);
             } else {
                 timePassed = 0;
-                $.log(DEBUG_MODE, "elapsedTime = null");
             } 
-        } else {
-        	$.log(DEBUG_MODE, "elapsedTime not in info");
-        }
+        } 
         
         // Current hr
         if(info has :currentHeartRate){
         	if(info.currentHeartRate != null){
         		currentHr = info.currentHeartRate;
-        		//$.log(DEBUG_MODE, "currentHr " + timePassed);
+        	} else {
+        		currentHr = 0;
         	}
         }
         
@@ -172,7 +168,8 @@ class IntervalDataFieldView extends WatchUi.DataField {
         if(info has :currentSpeed){
         	if(info.currentSpeed != null){
         		currentSpeed = info.currentSpeed * 3.6;
-        		//$.log(DEBUG_MODE, "currentSpeed " + currentSpeed);
+        	} else {
+        		currentSpeed = 0;
         	}
         }
         
@@ -184,7 +181,8 @@ class IntervalDataFieldView extends WatchUi.DataField {
         if(info has :elapsedDistance){
         	if(info.elapsedDistance != null){
         		distance = info.elapsedDistance / 1000;
-        		//$.log(DEBUG_MODE, "distance " + distance + " (raakadata) " +info.elapsedDistance);
+        	} else {
+        		distance = 0;
         	}
         }
 
@@ -201,10 +199,12 @@ class IntervalDataFieldView extends WatchUi.DataField {
             valueColor = Graphics.COLOR_BLACK;
         }
 
+		// Clock
 		var time = View.findDrawableById(CURRENT_TIME_VALUE);
 		time.setColor(valueColor);
 		time.setText(currentTime);
 		
+		// Interval
 		var intervalValue = View.findDrawableById(INTERVAL_VALUE);
 		intervalValue.setColor(valueColor);
 		intervalValue.setText(timerObject.onUpdate());
@@ -214,10 +214,12 @@ class IntervalDataFieldView extends WatchUi.DataField {
 			View.findDrawableById(INTERVAL_LABEL).setText(Rez.Strings.rest);
 		}
 
+		// Battery
         var battery = View.findDrawableById(BATTERY_STATUS_VALUE);
         battery.setColor(valueColor);
         battery.setText(batteryStatus.format("%02d") + "%");
 
+		// Time passed
 		var passed = View.findDrawableById(TIME_PASSED_VALUE);
 		passed.setColor(valueColor);
 		var seconds = (timePassed / 1000) %60;
@@ -226,14 +228,17 @@ class IntervalDataFieldView extends WatchUi.DataField {
 		passed.setText(Lang.format("$1$:$2$:$3$",
     		[hours.format("%02d"), minutes.format("%02d"), seconds.format("%02d")]));
 
+		// Heart rate
 		var hr = View.findDrawableById(HR_VALUE);
 		hr.setColor(valueColor);
 		hr.setText(currentHr.format("%02d"));
 		
+		// Speed
 		var speed = View.findDrawableById(CURRENT_SPEED_VALUE);
 		speed.setColor(valueColor);
 		speed.setText(currentSpeed.format("%3.2f"));
 		
+		// Distance
 		var dist = View.findDrawableById(DISTANCE_VALUE);
 		dist.setColor(valueColor);
 		dist.setText(distance.format("%3.2f"));
@@ -261,6 +266,7 @@ class IntervalDataFieldView extends WatchUi.DataField {
     }
 }
 
+// Debug
 function log(debugMode, message) {
 	if (debugMode == true) {
 		System.println(message);
